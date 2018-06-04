@@ -200,7 +200,7 @@ PartOf=bluetooth.service
 [Service]
 Type=forking
 RemainAfterExit=yes
-ExecStart=/bin/bash /home/pi/P4wnP1/boot/init_bt.sh
+ExecStart=/bin/bash $wdir/boot/init_bt.sh
 StandardOutput=journal+console
 StandardError=journal+console
 
